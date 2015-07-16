@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Unit_Tests" tests="345" assertions="687" failures="0" errors="0" time="2.845866">
+    <testsuite name="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" tests="7" assertions="20" failures="0" errors="0" time="0.142457">
+      <testcase name="testGetActionWithId" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="28" assertions="4" time="0.053696"/>
+      <testcase name="testGetActionWithoutId" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="59" assertions="4" time="0.027589"/>
+      <testcase name="testPostAction" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="88" assertions="2" time="0.009139"/>
+      <testcase name="testPutAction" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="100" assertions="2" time="0.008495"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="112" assertions="3" time="0.023654"/>
+      <testcase name="testPutActionWithError" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="131" assertions="3" time="0.014168"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\ClienteControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ClienteControllerTest.php" line="150" assertions="2" time="0.005716"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\ContatoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ContatoControllerTest.php" tests="3" assertions="7" failures="0" errors="0" time="0.034937">
+      <testcase name="testPostAction" class="DexterService\Controllers\ContatoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ContatoControllerTest.php" line="28" assertions="2" time="0.012455"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\ContatoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ContatoControllerTest.php" line="40" assertions="3" time="0.015685"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\ContatoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ContatoControllerTest.php" line="59" assertions="2" time="0.006797"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" tests="7" assertions="20" failures="0" errors="0" time="0.115916">
+      <testcase name="testGetActionWithId" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="28" assertions="4" time="0.029107"/>
+      <testcase name="testGetActionWithoutId" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="56" assertions="4" time="0.027788"/>
+      <testcase name="testPostAction" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="83" assertions="2" time="0.008306"/>
+      <testcase name="testPutAction" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="95" assertions="2" time="0.008895"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="107" assertions="3" time="0.018716"/>
+      <testcase name="testPutActionWithError" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="126" assertions="3" time="0.016477"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\DestaqueControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/DestaqueControllerTest.php" line="145" assertions="2" time="0.006627"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\EstadoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/EstadoControllerTest.php" tests="2" assertions="4" failures="0" errors="0" time="0.019584">
+      <testcase name="testGetAction" class="DexterService\Controllers\EstadoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/EstadoControllerTest.php" line="28" assertions="2" time="0.012934"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\EstadoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/EstadoControllerTest.php" line="40" assertions="2" time="0.006650"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" tests="7" assertions="20" failures="0" errors="0" time="0.111720">
+      <testcase name="testGetActionWithId" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="28" assertions="4" time="0.029900"/>
+      <testcase name="testGetActionWithoutId" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="56" assertions="4" time="0.026520"/>
+      <testcase name="testPostAction" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="83" assertions="2" time="0.007716"/>
+      <testcase name="testPutAction" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="95" assertions="2" time="0.008796"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="107" assertions="3" time="0.018647"/>
+      <testcase name="testPutActionWithError" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="126" assertions="3" time="0.014258"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\FuncionalidadeControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/FuncionalidadeControllerTest.php" line="145" assertions="2" time="0.005883"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" tests="7" assertions="20" failures="0" errors="0" time="0.110912">
+      <testcase name="testGetActionWithId" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="28" assertions="4" time="0.026679"/>
+      <testcase name="testGetActionWithoutId" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="56" assertions="4" time="0.028429"/>
+      <testcase name="testPostAction" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="83" assertions="2" time="0.007947"/>
+      <testcase name="testPutAction" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="95" assertions="2" time="0.008238"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="107" assertions="3" time="0.015420"/>
+      <testcase name="testPutActionWithError" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="126" assertions="3" time="0.018385"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\MensagemControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/MensagemControllerTest.php" line="145" assertions="2" time="0.005814"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" tests="8" assertions="24" failures="0" errors="0" time="0.144148">
+      <testcase name="testGetActionWithId" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="28" assertions="4" time="0.031555"/>
+      <testcase name="testGetActionWithoutId" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="57" assertions="4" time="0.036545"/>
+      <testcase name="testGetActionWithoutIdAndWithAll" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="89" assertions="4" time="0.023306"/>
+      <testcase name="testPostAction" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="120" assertions="2" time="0.008825"/>
+      <testcase name="testPutAction" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="132" assertions="2" time="0.008689"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="144" assertions="3" time="0.014882"/>
+      <testcase name="testPutActionWithError" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="163" assertions="3" time="0.014601"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\ServicoControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/ServicoControllerTest.php" line="182" assertions="2" time="0.005745"/>
+    </testsuite>
+    <testsuite name="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" tests="7" assertions="20" failures="0" errors="0" time="0.112762">
+      <testcase name="testGetActionWithId" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="28" assertions="4" time="0.027478"/>
+      <testcase name="testGetActionWithoutId" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="56" assertions="4" time="0.025356"/>
+      <testcase name="testPostAction" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="83" assertions="2" time="0.008739"/>
+      <testcase name="testPatchAction" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="95" assertions="2" time="0.008984"/>
+      <testcase name="testPostActionWithError" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="107" assertions="3" time="0.020396"/>
+      <testcase name="testPatchActionWithError" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="126" assertions="3" time="0.015672"/>
+      <testcase name="testShouldGetSetService" class="DexterService\Controllers\UsuarioControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Controllers/UsuarioControllerTest.php" line="145" assertions="2" time="0.006137"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Collection\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/ClienteTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.008142">
+      <testcase name="testShouldBeInstanceOfArrayObject" class="DexterService\Models\Collection\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/ClienteTest.php" line="7" assertions="1" time="0.008142"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Collection\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/DestaqueTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.003858">
+      <testcase name="testShouldBeInstanceOfArrayObject" class="DexterService\Models\Collection\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/DestaqueTest.php" line="7" assertions="1" time="0.003858"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Collection\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/FuncionalidadeTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.003581">
+      <testcase name="testShouldBeInstanceOfArrayObject" class="DexterService\Models\Collection\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/FuncionalidadeTest.php" line="7" assertions="1" time="0.003581"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Collection\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/MensagemTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.003436">
+      <testcase name="testShouldBeInstanceOfArrayObject" class="DexterService\Models\Collection\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/MensagemTest.php" line="7" assertions="1" time="0.003436"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Collection\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/ServicoTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.004112">
+      <testcase name="testShouldBeInstanceOfArrayObject" class="DexterService\Models\Collection\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/ServicoTest.php" line="7" assertions="1" time="0.004112"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Collection\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/UserTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.003469">
+      <testcase name="testShouldBeInstanceOfArrayObject" class="DexterService\Models\Collection\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Collection/UserTest.php" line="7" assertions="1" time="0.003469"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\DataMapper\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ClienteTest.php" tests="5" assertions="8" failures="0" errors="0" time="0.050149">
+      <testcase name="testShouldFetchAll" class="DexterService\Models\DataMapper\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ClienteTest.php" line="22" assertions="2" time="0.017297"/>
+      <testcase name="testShouldFetchById" class="DexterService\Models\DataMapper\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ClienteTest.php" line="32" assertions="2" time="0.008936"/>
+      <testcase name="testShouldFetchByIdThrowingNotFoundException" class="DexterService\Models\DataMapper\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ClienteTest.php" line="50" assertions="2" time="0.008057"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\DataMapper\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ClienteTest.php" line="58" assertions="1" time="0.008719"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\DataMapper\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ClienteTest.php" line="65" assertions="1" time="0.007140"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\DataMapper\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/DestaqueTest.php" tests="5" assertions="8" failures="0" errors="0" time="0.041990">
+      <testcase name="testShouldFetchAll" class="DexterService\Models\DataMapper\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/DestaqueTest.php" line="22" assertions="2" time="0.008347"/>
+      <testcase name="testShouldFetchById" class="DexterService\Models\DataMapper\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/DestaqueTest.php" line="32" assertions="2" time="0.009347"/>
+      <testcase name="testShouldFetchByIdThrowingNotFoundException" class="DexterService\Models\DataMapper\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/DestaqueTest.php" line="50" assertions="2" time="0.007948"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\DataMapper\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/DestaqueTest.php" line="58" assertions="1" time="0.009390"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\DataMapper\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/DestaqueTest.php" line="65" assertions="1" time="0.006958"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\DataMapper\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/FuncionalidadeTest.php" tests="5" assertions="8" failures="0" errors="0" time="0.042456">
+      <testcase name="testShouldFetchAll" class="DexterService\Models\DataMapper\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/FuncionalidadeTest.php" line="22" assertions="2" time="0.009077"/>
+      <testcase name="testShouldFetchById" class="DexterService\Models\DataMapper\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/FuncionalidadeTest.php" line="32" assertions="2" time="0.008927"/>
+      <testcase name="testShouldFetchByIdThrowingNotFoundException" class="DexterService\Models\DataMapper\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/FuncionalidadeTest.php" line="50" assertions="2" time="0.008667"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\DataMapper\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/FuncionalidadeTest.php" line="58" assertions="1" time="0.007365"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\DataMapper\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/FuncionalidadeTest.php" line="65" assertions="1" time="0.008420"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\DataMapper\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/MensagemTest.php" tests="5" assertions="8" failures="0" errors="0" time="0.043442">
+      <testcase name="testShouldFetchAll" class="DexterService\Models\DataMapper\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/MensagemTest.php" line="22" assertions="2" time="0.008570"/>
+      <testcase name="testShouldFetchById" class="DexterService\Models\DataMapper\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/MensagemTest.php" line="32" assertions="2" time="0.010590"/>
+      <testcase name="testShouldFetchByIdThrowingNotFoundException" class="DexterService\Models\DataMapper\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/MensagemTest.php" line="50" assertions="2" time="0.009241"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\DataMapper\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/MensagemTest.php" line="58" assertions="1" time="0.007540"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\DataMapper\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/MensagemTest.php" line="65" assertions="1" time="0.007501"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\DataMapper\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ServicoTest.php" tests="5" assertions="8" failures="0" errors="0" time="0.043830">
+      <testcase name="testShouldFetchAll" class="DexterService\Models\DataMapper\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ServicoTest.php" line="22" assertions="2" time="0.008038"/>
+      <testcase name="testShouldFetchById" class="DexterService\Models\DataMapper\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ServicoTest.php" line="32" assertions="2" time="0.012823"/>
+      <testcase name="testShouldFetchByIdThrowingNotFoundException" class="DexterService\Models\DataMapper\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ServicoTest.php" line="50" assertions="2" time="0.007514"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\DataMapper\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ServicoTest.php" line="58" assertions="1" time="0.007804"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\DataMapper\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/ServicoTest.php" line="65" assertions="1" time="0.007651"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\DataMapper\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/UserTest.php" tests="5" assertions="8" failures="0" errors="0" time="0.040789">
+      <testcase name="testShouldFetchAll" class="DexterService\Models\DataMapper\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/UserTest.php" line="22" assertions="2" time="0.008176"/>
+      <testcase name="testShouldFetchById" class="DexterService\Models\DataMapper\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/UserTest.php" line="32" assertions="2" time="0.009168"/>
+      <testcase name="testShouldFetchByIdThrowingNotFoundException" class="DexterService\Models\DataMapper\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/UserTest.php" line="50" assertions="2" time="0.007185"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\DataMapper\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/UserTest.php" line="58" assertions="1" time="0.008043"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\DataMapper\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/DataMapper/UserTest.php" line="65" assertions="1" time="0.008217"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Entity\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Entity/ClienteTest.php" tests="57" assertions="114" failures="0" errors="0" time="0.244102">
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetId" tests="4" assertions="8" failures="0" errors="0" time="0.016118">
+        <testcase name="testShouldGetSetId with data set #0" assertions="2" time="0.004331"/>
+        <testcase name="testShouldGetSetId with data set #1" assertions="2" time="0.004033"/>
+        <testcase name="testShouldGetSetId with data set #2" assertions="2" time="0.003319"/>
+        <testcase name="testShouldGetSetId with data set #3" assertions="2" time="0.004435"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetId" tests="3" assertions="6" failures="0" errors="0" time="0.013950">
+        <testcase name="testShouldNotGetSetId with data set #0" assertions="2" time="0.005245"/>
+        <testcase name="testShouldNotGetSetId with data set #1" assertions="2" time="0.004515"/>
+        <testcase name="testShouldNotGetSetId with data set #2" assertions="2" time="0.004190"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetNome" tests="3" assertions="6" failures="0" errors="0" time="0.011782">
+        <testcase name="testShouldGetSetNome with data set #0" assertions="2" time="0.003569"/>
+        <testcase name="testShouldGetSetNome with data set #1" assertions="2" time="0.004046"/>
+        <testcase name="testShouldGetSetNome with data set #2" assertions="2" time="0.004167"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetNome" tests="4" assertions="8" failures="0" errors="0" time="0.016920">
+        <testcase name="testShouldNotGetSetNome with data set #0" assertions="2" time="0.003671"/>
+        <testcase name="testShouldNotGetSetNome with data set #1" assertions="2" time="0.004629"/>
+        <testcase name="testShouldNotGetSetNome with data set #2" assertions="2" time="0.004546"/>
+        <testcase name="testShouldNotGetSetNome with data set #3" assertions="2" time="0.004074"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetCpfCnpj" tests="3" assertions="6" failures="0" errors="0" time="0.015280">
+        <testcase name="testShouldGetSetCpfCnpj with data set #0" assertions="2" time="0.003781"/>
+        <testcase name="testShouldGetSetCpfCnpj with data set #1" assertions="2" time="0.007668"/>
+        <testcase name="testShouldGetSetCpfCnpj with data set #2" assertions="2" time="0.003831"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetTelefone" tests="3" assertions="6" failures="0" errors="0" time="0.013080">
+        <testcase name="testShouldGetSetTelefone with data set #0" assertions="2" time="0.003870"/>
+        <testcase name="testShouldGetSetTelefone with data set #1" assertions="2" time="0.004729"/>
+        <testcase name="testShouldGetSetTelefone with data set #2" assertions="2" time="0.004481"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetTelefone" tests="3" assertions="6" failures="0" errors="0" time="0.011954">
+        <testcase name="testShouldNotGetSetTelefone with data set #0" assertions="2" time="0.004315"/>
+        <testcase name="testShouldNotGetSetTelefone with data set #1" assertions="2" time="0.003978"/>
+        <testcase name="testShouldNotGetSetTelefone with data set #2" assertions="2" time="0.003661"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetCelular" tests="3" assertions="6" failures="0" errors="0" time="0.011292">
+        <testcase name="testShouldGetSetCelular with data set #0" assertions="2" time="0.003591"/>
+        <testcase name="testShouldGetSetCelular with data set #1" assertions="2" time="0.003932"/>
+        <testcase name="testShouldGetSetCelular with data set #2" assertions="2" time="0.003769"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetCelular" tests="3" assertions="6" failures="0" errors="0" time="0.012724">
+        <testcase name="testShouldNotGetSetCelular with data set #0" assertions="2" time="0.004141"/>
+        <testcase name="testShouldNotGetSetCelular with data set #1" assertions="2" time="0.004156"/>
+        <testcase name="testShouldNotGetSetCelular with data set #2" assertions="2" time="0.004427"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetEmail" tests="4" assertions="8" failures="0" errors="0" time="0.015759">
+        <testcase name="testShouldGetSetEmail with data set #0" assertions="2" time="0.003840"/>
+        <testcase name="testShouldGetSetEmail with data set #1" assertions="2" time="0.004526"/>
+        <testcase name="testShouldGetSetEmail with data set #2" assertions="2" time="0.003527"/>
+        <testcase name="testShouldGetSetEmail with data set #3" assertions="2" time="0.003866"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetEmail" tests="3" assertions="6" failures="0" errors="0" time="0.012913">
+        <testcase name="testShouldNotGetSetEmail with data set #0" assertions="2" time="0.004702"/>
+        <testcase name="testShouldNotGetSetEmail with data set #1" assertions="2" time="0.004331"/>
+        <testcase name="testShouldNotGetSetEmail with data set #2" assertions="2" time="0.003880"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetCep" tests="3" assertions="6" failures="0" errors="0" time="0.011590">
+        <testcase name="testShouldGetSetCep with data set #0" assertions="2" time="0.004064"/>
+        <testcase name="testShouldGetSetCep with data set #1" assertions="2" time="0.003793"/>
+        <testcase name="testShouldGetSetCep with data set #2" assertions="2" time="0.003733"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetCep" tests="3" assertions="6" failures="0" errors="0" time="0.012230">
+        <testcase name="testShouldNotGetSetCep with data set #0" assertions="2" time="0.004150"/>
+        <testcase name="testShouldNotGetSetCep with data set #1" assertions="2" time="0.004193"/>
+        <testcase name="testShouldNotGetSetCep with data set #2" assertions="2" time="0.003887"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetEstado" tests="3" assertions="6" failures="0" errors="0" time="0.012314">
+        <testcase name="testShouldGetSetEstado with data set #0" assertions="2" time="0.003923"/>
+        <testcase name="testShouldGetSetEstado with data set #1" assertions="2" time="0.003822"/>
+        <testcase name="testShouldGetSetEstado with data set #2" assertions="2" time="0.004569"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldNotGetSetEstado" tests="3" assertions="6" failures="0" errors="0" time="0.012768">
+        <testcase name="testShouldNotGetSetEstado with data set #0" assertions="2" time="0.004081"/>
+        <testcase name="testShouldNotGetSetEstado with data set #1" assertions="2" time="0.004480"/>
+        <testcase name="testShouldNotGetSetEstado with data set #2" assertions="2" time="0.004207"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetBairro" tests="3" assertions="6" failures="0" errors="0" time="0.018653">
+        <testcase name="testShouldGetSetBairro with data set #0" assertions="2" time="0.009906"/>
+        <testcase name="testShouldGetSetBairro with data set #1" assertions="2" time="0.004168"/>
+        <testcase name="testShouldGetSetBairro with data set #2" assertions="2" time="0.004579"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetEndereco" tests="3" assertions="6" failures="0" errors="0" time="0.012193">
+        <testcase name="testShouldGetSetEndereco with data set #0" assertions="2" time="0.004502"/>
+        <testcase name="testShouldGetSetEndereco with data set #1" assertions="2" time="0.003734"/>
+        <testcase name="testShouldGetSetEndereco with data set #2" assertions="2" time="0.003957"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ClienteTest::testShouldGetSetCidade" tests="3" assertions="6" failures="0" errors="0" time="0.012583">
+        <testcase name="testShouldGetSetCidade with data set #0" assertions="2" time="0.004483"/>
+        <testcase name="testShouldGetSetCidade with data set #1" assertions="2" time="0.003742"/>
+        <testcase name="testShouldGetSetCidade with data set #2" assertions="2" time="0.004358"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="DexterService\Models\Entity\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Entity/DestaqueTest.php" tests="24" assertions="48" failures="0" errors="0" time="0.098761">
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldGetSetId" tests="4" assertions="8" failures="0" errors="0" time="0.014713">
+        <testcase name="testShouldGetSetId with data set #0" assertions="2" time="0.003775"/>
+        <testcase name="testShouldGetSetId with data set #1" assertions="2" time="0.003724"/>
+        <testcase name="testShouldGetSetId with data set #2" assertions="2" time="0.003336"/>
+        <testcase name="testShouldGetSetId with data set #3" assertions="2" time="0.003878"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldNotGetSetId" tests="3" assertions="6" failures="0" errors="0" time="0.012173">
+        <testcase name="testShouldNotGetSetId with data set #0" assertions="2" time="0.003901"/>
+        <testcase name="testShouldNotGetSetId with data set #1" assertions="2" time="0.004161"/>
+        <testcase name="testShouldNotGetSetId with data set #2" assertions="2" time="0.004111"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldGetSetImagem" tests="4" assertions="8" failures="0" errors="0" time="0.015510">
+        <testcase name="testShouldGetSetImagem with data set #0" assertions="2" time="0.003718"/>
+        <testcase name="testShouldGetSetImagem with data set #1" assertions="2" time="0.003852"/>
+        <testcase name="testShouldGetSetImagem with data set #2" assertions="2" time="0.003772"/>
+        <testcase name="testShouldGetSetImagem with data set #3" assertions="2" time="0.004168"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldNotGetSetImagem" tests="3" assertions="6" failures="0" errors="0" time="0.012398">
+        <testcase name="testShouldNotGetSetImagem with data set #0" assertions="2" time="0.004164"/>
+        <testcase name="testShouldNotGetSetImagem with data set #1" assertions="2" time="0.004070"/>
+        <testcase name="testShouldNotGetSetImagem with data set #2" assertions="2" time="0.004164"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldGetSetTitulo" tests="3" assertions="6" failures="0" errors="0" time="0.015325">
+        <testcase name="testShouldGetSetTitulo with data set #0" assertions="2" time="0.004206"/>
+        <testcase name="testShouldGetSetTitulo with data set #1" assertions="2" time="0.003753"/>
+        <testcase name="testShouldGetSetTitulo with data set #2" assertions="2" time="0.007366"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldNotGetSetTitulo" tests="4" assertions="8" failures="0" errors="0" time="0.016534">
+        <testcase name="testShouldNotGetSetTitulo with data set #0" assertions="2" time="0.004381"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #1" assertions="2" time="0.004329"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #2" assertions="2" time="0.003742"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #3" assertions="2" time="0.004082"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\DestaqueTest::testShouldGetSetDescricao" tests="3" assertions="6" failures="0" errors="0" time="0.012108">
+        <testcase name="testShouldGetSetDescricao with data set #0" assertions="2" time="0.004007"/>
+        <testcase name="testShouldGetSetDescricao with data set #1" assertions="2" time="0.004238"/>
+        <testcase name="testShouldGetSetDescricao with data set #2" assertions="2" time="0.003863"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="DexterService\Models\Entity\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Entity/FuncionalidadeTest.php" tests="24" assertions="48" failures="0" errors="0" time="0.099164">
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldGetSetId" tests="4" assertions="8" failures="0" errors="0" time="0.016476">
+        <testcase name="testShouldGetSetId with data set #0" assertions="2" time="0.004165"/>
+        <testcase name="testShouldGetSetId with data set #1" assertions="2" time="0.003906"/>
+        <testcase name="testShouldGetSetId with data set #2" assertions="2" time="0.003790"/>
+        <testcase name="testShouldGetSetId with data set #3" assertions="2" time="0.004615"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldNotGetSetId" tests="3" assertions="6" failures="0" errors="0" time="0.012760">
+        <testcase name="testShouldNotGetSetId with data set #0" assertions="2" time="0.004244"/>
+        <testcase name="testShouldNotGetSetId with data set #1" assertions="2" time="0.004440"/>
+        <testcase name="testShouldNotGetSetId with data set #2" assertions="2" time="0.004076"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldGetSetImagem" tests="4" assertions="8" failures="0" errors="0" time="0.015128">
+        <testcase name="testShouldGetSetImagem with data set #0" assertions="2" time="0.004084"/>
+        <testcase name="testShouldGetSetImagem with data set #1" assertions="2" time="0.003772"/>
+        <testcase name="testShouldGetSetImagem with data set #2" assertions="2" time="0.003747"/>
+        <testcase name="testShouldGetSetImagem with data set #3" assertions="2" time="0.003525"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldNotGetSetImagem" tests="3" assertions="6" failures="0" errors="0" time="0.012330">
+        <testcase name="testShouldNotGetSetImagem with data set #0" assertions="2" time="0.004078"/>
+        <testcase name="testShouldNotGetSetImagem with data set #1" assertions="2" time="0.004095"/>
+        <testcase name="testShouldNotGetSetImagem with data set #2" assertions="2" time="0.004157"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldGetSetTitulo" tests="3" assertions="6" failures="0" errors="0" time="0.012002">
+        <testcase name="testShouldGetSetTitulo with data set #0" assertions="2" time="0.004268"/>
+        <testcase name="testShouldGetSetTitulo with data set #1" assertions="2" time="0.003925"/>
+        <testcase name="testShouldGetSetTitulo with data set #2" assertions="2" time="0.003809"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldNotGetSetTitulo" tests="4" assertions="8" failures="0" errors="0" time="0.018574">
+        <testcase name="testShouldNotGetSetTitulo with data set #0" assertions="2" time="0.004412"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #1" assertions="2" time="0.005295"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #2" assertions="2" time="0.004124"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #3" assertions="2" time="0.004743"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\FuncionalidadeTest::testShouldGetSetDescricao" tests="3" assertions="6" failures="0" errors="0" time="0.011894">
+        <testcase name="testShouldGetSetDescricao with data set #0" assertions="2" time="0.003581"/>
+        <testcase name="testShouldGetSetDescricao with data set #1" assertions="2" time="0.003748"/>
+        <testcase name="testShouldGetSetDescricao with data set #2" assertions="2" time="0.004565"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="DexterService\Models\Entity\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Entity/MensagemTest.php" tests="27" assertions="54" failures="0" errors="0" time="0.113159">
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldGetSetId" tests="4" assertions="8" failures="0" errors="0" time="0.015406">
+        <testcase name="testShouldGetSetId with data set #0" assertions="2" time="0.003706"/>
+        <testcase name="testShouldGetSetId with data set #1" assertions="2" time="0.003853"/>
+        <testcase name="testShouldGetSetId with data set #2" assertions="2" time="0.003964"/>
+        <testcase name="testShouldGetSetId with data set #3" assertions="2" time="0.003883"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldNotGetSetId" tests="3" assertions="6" failures="0" errors="0" time="0.012653">
+        <testcase name="testShouldNotGetSetId with data set #0" assertions="2" time="0.004151"/>
+        <testcase name="testShouldNotGetSetId with data set #1" assertions="2" time="0.004149"/>
+        <testcase name="testShouldNotGetSetId with data set #2" assertions="2" time="0.004353"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldGetSetNome" tests="3" assertions="6" failures="0" errors="0" time="0.012303">
+        <testcase name="testShouldGetSetNome with data set #0" assertions="2" time="0.003769"/>
+        <testcase name="testShouldGetSetNome with data set #1" assertions="2" time="0.004922"/>
+        <testcase name="testShouldGetSetNome with data set #2" assertions="2" time="0.003612"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldNotGetSetNome" tests="4" assertions="8" failures="0" errors="0" time="0.016732">
+        <testcase name="testShouldNotGetSetNome with data set #0" assertions="2" time="0.004623"/>
+        <testcase name="testShouldNotGetSetNome with data set #1" assertions="2" time="0.003706"/>
+        <testcase name="testShouldNotGetSetNome with data set #2" assertions="2" time="0.004182"/>
+        <testcase name="testShouldNotGetSetNome with data set #3" assertions="2" time="0.004221"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldGetSetEmail" tests="4" assertions="8" failures="0" errors="0" time="0.020319">
+        <testcase name="testShouldGetSetEmail with data set #0" assertions="2" time="0.003767"/>
+        <testcase name="testShouldGetSetEmail with data set #1" assertions="2" time="0.003947"/>
+        <testcase name="testShouldGetSetEmail with data set #2" assertions="2" time="0.004471"/>
+        <testcase name="testShouldGetSetEmail with data set #3" assertions="2" time="0.008134"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldNotGetSetEmail" tests="3" assertions="6" failures="0" errors="0" time="0.011928">
+        <testcase name="testShouldNotGetSetEmail with data set #0" assertions="2" time="0.003692"/>
+        <testcase name="testShouldNotGetSetEmail with data set #1" assertions="2" time="0.004073"/>
+        <testcase name="testShouldNotGetSetEmail with data set #2" assertions="2" time="0.004163"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldGetSetAssunto" tests="3" assertions="6" failures="0" errors="0" time="0.012351">
+        <testcase name="testShouldGetSetAssunto with data set #0" assertions="2" time="0.003855"/>
+        <testcase name="testShouldGetSetAssunto with data set #1" assertions="2" time="0.004683"/>
+        <testcase name="testShouldGetSetAssunto with data set #2" assertions="2" time="0.003813"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\MensagemTest::testShouldGetSetMensagem" tests="3" assertions="6" failures="0" errors="0" time="0.011467">
+        <testcase name="testShouldGetSetMensagem with data set #0" assertions="2" time="0.003969"/>
+        <testcase name="testShouldGetSetMensagem with data set #1" assertions="2" time="0.003697"/>
+        <testcase name="testShouldGetSetMensagem with data set #2" assertions="2" time="0.003801"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="DexterService\Models\Entity\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Entity/ServicoTest.php" tests="26" assertions="52" failures="0" errors="0" time="0.105398">
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldGetSetId" tests="4" assertions="8" failures="0" errors="0" time="0.016336">
+        <testcase name="testShouldGetSetId with data set #0" assertions="2" time="0.003987"/>
+        <testcase name="testShouldGetSetId with data set #1" assertions="2" time="0.004467"/>
+        <testcase name="testShouldGetSetId with data set #2" assertions="2" time="0.003858"/>
+        <testcase name="testShouldGetSetId with data set #3" assertions="2" time="0.004024"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldNotGetSetId" tests="3" assertions="6" failures="0" errors="0" time="0.013771">
+        <testcase name="testShouldNotGetSetId with data set #0" assertions="2" time="0.004534"/>
+        <testcase name="testShouldNotGetSetId with data set #1" assertions="2" time="0.004066"/>
+        <testcase name="testShouldNotGetSetId with data set #2" assertions="2" time="0.005171"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldGetSetImagem" tests="4" assertions="8" failures="0" errors="0" time="0.015906">
+        <testcase name="testShouldGetSetImagem with data set #0" assertions="2" time="0.004028"/>
+        <testcase name="testShouldGetSetImagem with data set #1" assertions="2" time="0.003861"/>
+        <testcase name="testShouldGetSetImagem with data set #2" assertions="2" time="0.004491"/>
+        <testcase name="testShouldGetSetImagem with data set #3" assertions="2" time="0.003526"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldNotGetSetImagem" tests="3" assertions="6" failures="0" errors="0" time="0.012023">
+        <testcase name="testShouldNotGetSetImagem with data set #0" assertions="2" time="0.004061"/>
+        <testcase name="testShouldNotGetSetImagem with data set #1" assertions="2" time="0.003998"/>
+        <testcase name="testShouldNotGetSetImagem with data set #2" assertions="2" time="0.003964"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldGetSetTitulo" tests="3" assertions="6" failures="0" errors="0" time="0.010972">
+        <testcase name="testShouldGetSetTitulo with data set #0" assertions="2" time="0.003481"/>
+        <testcase name="testShouldGetSetTitulo with data set #1" assertions="2" time="0.003861"/>
+        <testcase name="testShouldGetSetTitulo with data set #2" assertions="2" time="0.003630"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldNotGetSetTitulo" tests="4" assertions="8" failures="0" errors="0" time="0.016693">
+        <testcase name="testShouldNotGetSetTitulo with data set #0" assertions="2" time="0.003977"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #1" assertions="2" time="0.004097"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #2" assertions="2" time="0.004236"/>
+        <testcase name="testShouldNotGetSetTitulo with data set #3" assertions="2" time="0.004383"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldGetSetDescricao" tests="3" assertions="6" failures="0" errors="0" time="0.011072">
+        <testcase name="testShouldGetSetDescricao with data set #0" assertions="2" time="0.003622"/>
+        <testcase name="testShouldGetSetDescricao with data set #1" assertions="2" time="0.003917"/>
+        <testcase name="testShouldGetSetDescricao with data set #2" assertions="2" time="0.003533"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\ServicoTest::testShouldGetSetShowHome" tests="2" assertions="4" failures="0" errors="0" time="0.008625">
+        <testcase name="testShouldGetSetShowHome with data set #0" assertions="2" time="0.004864"/>
+        <testcase name="testShouldGetSetShowHome with data set #1" assertions="2" time="0.003761"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="DexterService\Models\Entity\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Entity/UserTest.php" tests="13" assertions="26" failures="0" errors="0" time="0.051553">
+      <testsuite name="DexterService\Models\Entity\UserTest::testShouldGetSetId" tests="4" assertions="8" failures="0" errors="0" time="0.015567">
+        <testcase name="testShouldGetSetId with data set #0" assertions="2" time="0.004270"/>
+        <testcase name="testShouldGetSetId with data set #1" assertions="2" time="0.003803"/>
+        <testcase name="testShouldGetSetId with data set #2" assertions="2" time="0.003508"/>
+        <testcase name="testShouldGetSetId with data set #3" assertions="2" time="0.003986"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\UserTest::testShouldNotGetSetId" tests="3" assertions="6" failures="0" errors="0" time="0.012071">
+        <testcase name="testShouldNotGetSetId with data set #0" assertions="2" time="0.003755"/>
+        <testcase name="testShouldNotGetSetId with data set #1" assertions="2" time="0.004066"/>
+        <testcase name="testShouldNotGetSetId with data set #2" assertions="2" time="0.004250"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\UserTest::testShouldGetSetLogin" tests="3" assertions="6" failures="0" errors="0" time="0.011253">
+        <testcase name="testShouldGetSetLogin with data set #0" assertions="2" time="0.003571"/>
+        <testcase name="testShouldGetSetLogin with data set #1" assertions="2" time="0.003839"/>
+        <testcase name="testShouldGetSetLogin with data set #2" assertions="2" time="0.003843"/>
+      </testsuite>
+      <testsuite name="DexterService\Models\Entity\UserTest::testShouldGetSetSenha" tests="3" assertions="6" failures="0" errors="0" time="0.012662">
+        <testcase name="testShouldGetSetSenha with data set #0" assertions="2" time="0.003888"/>
+        <testcase name="testShouldGetSetSenha with data set #1" assertions="2" time="0.003773"/>
+        <testcase name="testShouldGetSetSenha with data set #2" assertions="2" time="0.005001"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="DexterService\Models\Exceptions\InvalidUserOrPasswordExceptionTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Exceptions/InvalidUserOrPasswordExceptionTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.004525">
+      <testcase name="testShouldThrowAnException" class="DexterService\Models\Exceptions\InvalidUserOrPasswordExceptionTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Exceptions/InvalidUserOrPasswordExceptionTest.php" line="12" assertions="2" time="0.004525"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.100276">
+      <testcase name="testShouldGetSetClienteMapper" class="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" line="17" assertions="2" time="0.003897"/>
+      <testcase name="testShouldGetDefaultClienteMapper" class="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" line="25" assertions="1" time="0.003375"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" line="33" assertions="1" time="0.035678"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" line="57" assertions="1" time="0.030208"/>
+      <testcase name="testShouldGetClientes" class="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" line="82" assertions="5" time="0.007941"/>
+      <testcase name="testShouldGetCliente" class="DexterService\Models\Service\ClienteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ClienteTest.php" line="113" assertions="2" time="0.019177"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.070444">
+      <testcase name="testShouldGetSetDestaqueMapper" class="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" line="17" assertions="2" time="0.003827"/>
+      <testcase name="testShouldGetDefaultDestaqueMapper" class="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" line="25" assertions="1" time="0.007523"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" line="33" assertions="1" time="0.019362"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" line="50" assertions="1" time="0.020858"/>
+      <testcase name="testShouldGetDestaques" class="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" line="68" assertions="5" time="0.006712"/>
+      <testcase name="testShouldGetDestaque" class="DexterService\Models\Service\DestaqueTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/DestaqueTest.php" line="92" assertions="2" time="0.012162"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.068439">
+      <testcase name="testShouldGetSetFuncionalidadeMapper" class="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" line="17" assertions="2" time="0.004584"/>
+      <testcase name="testShouldGetDefaultFuncionalidadeMapper" class="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" line="25" assertions="1" time="0.003545"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" line="33" assertions="1" time="0.024707"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" line="50" assertions="1" time="0.016477"/>
+      <testcase name="testShouldGetFuncionalidades" class="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" line="68" assertions="5" time="0.006880"/>
+      <testcase name="testShouldGetFuncionalidade" class="DexterService\Models\Service\FuncionalidadeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/FuncionalidadeTest.php" line="92" assertions="2" time="0.012246"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" tests="6" assertions="12" failures="0" errors="0" time="0.067734">
+      <testcase name="testShouldGetSetMensagemMapper" class="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" line="17" assertions="2" time="0.003924"/>
+      <testcase name="testShouldGetDefaultMensagemMapper" class="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" line="25" assertions="1" time="0.003613"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" line="33" assertions="1" time="0.022390"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" line="51" assertions="1" time="0.017514"/>
+      <testcase name="testShouldGetMensagens" class="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" line="70" assertions="5" time="0.006712"/>
+      <testcase name="testShouldgetMensagem" class="DexterService\Models\Service\MensagemTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/MensagemTest.php" line="95" assertions="2" time="0.013581"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" tests="7" assertions="17" failures="0" errors="0" time="0.079223">
+      <testcase name="testShouldGetSetServicoMapper" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="17" assertions="2" time="0.003941"/>
+      <testcase name="testShouldGetDefaultServicoMapper" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="25" assertions="1" time="0.003651"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="33" assertions="1" time="0.021871"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="51" assertions="1" time="0.017633"/>
+      <testcase name="testShouldGetAllServicos" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="70" assertions="5" time="0.008352"/>
+      <testcase name="testShouldGetServicos" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="95" assertions="5" time="0.011246"/>
+      <testcase name="testShouldGetServico" class="DexterService\Models\Service\ServicoTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/ServicoTest.php" line="120" assertions="2" time="0.012529"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" tests="7" assertions="11" failures="0" errors="0" time="0.074587">
+      <testcase name="testShouldGetUserById" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="9" assertions="2" time="0.015017"/>
+      <testcase name="testShouldGetAllUsers" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="32" assertions="2" time="0.015537"/>
+      <testcase name="testShouldGetSetUserMapper" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="58" assertions="2" time="0.004490"/>
+      <testcase name="testShouldGetDefaultUserMapper" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="67" assertions="1" time="0.003604"/>
+      <testcase name="testShouldNotSaveWithWrongSenhaAndConfereSenha" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="80" assertions="2" time="0.005454"/>
+      <testcase name="testShouldInsert" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="92" assertions="1" time="0.013137"/>
+      <testcase name="testShouldUpdate" class="DexterService\Models\Service\UserTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Service/UserTest.php" line="116" assertions="1" time="0.017348"/>
+    </testsuite>
+    <testsuite name="DexterService\Models\Strategy\LoginDatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Strategy/LoginDatabaseTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.031694">
+      <testcase name="testShouldLogin" class="DexterService\Models\Strategy\LoginDatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Strategy/LoginDatabaseTest.php" line="7" assertions="1" time="0.014890"/>
+      <testcase name="testShouldNotLogin" class="DexterService\Models\Strategy\LoginDatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Strategy/LoginDatabaseTest.php" line="37" assertions="3" time="0.012309"/>
+      <testcase name="testShouldGetDefaultDatabase" class="DexterService\Models\Strategy\LoginDatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/application/Models/Strategy/LoginDatabaseTest.php" line="63" assertions="1" time="0.004495"/>
+    </testsuite>
+    <testsuite name="Dexter\Auth\Algo\DatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/Algo/DatabaseTest.php" tests="2" assertions="4" failures="0" errors="0" time="0.186368">
+      <testcase name="testShouldLoginSuccessfully" class="Dexter\Auth\Algo\DatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/Algo/DatabaseTest.php" line="7" assertions="1" time="0.094590"/>
+      <testcase name="testShouldNotLogin" class="Dexter\Auth\Algo\DatabaseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/Algo/DatabaseTest.php" line="36" assertions="3" time="0.091778"/>
+    </testsuite>
+    <testsuite name="Dexter\Auth\BasicTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/BasicTest.php" tests="7" assertions="8" failures="0" errors="0" time="0.055290">
+      <testsuite name="Dexter\Auth\BasicTest::testShouldLoginWithoutCredentialsBecauseOfAcl" tests="4" assertions="4" failures="0" errors="0" time="0.022829">
+        <testcase name="testShouldLoginWithoutCredentialsBecauseOfAcl with data set #0" assertions="1" time="0.008315"/>
+        <testcase name="testShouldLoginWithoutCredentialsBecauseOfAcl with data set #1" assertions="1" time="0.004946"/>
+        <testcase name="testShouldLoginWithoutCredentialsBecauseOfAcl with data set #2" assertions="1" time="0.005088"/>
+        <testcase name="testShouldLoginWithoutCredentialsBecauseOfAcl with data set #3" assertions="1" time="0.004480"/>
+      </testsuite>
+      <testcase name="testShouldPresentBasicWithInvalidCredentials" class="Dexter\Auth\BasicTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/BasicTest.php" line="21" assertions="2" time="0.012392"/>
+      <testcase name="testShouldPresentBasicWithNoUserSent" class="Dexter\Auth\BasicTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/BasicTest.php" line="50" assertions="1" time="0.010043"/>
+      <testcase name="testShouldLoginSuccessfully" class="Dexter\Auth\BasicTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Auth/BasicTest.php" line="63" assertions="1" time="0.010026"/>
+    </testsuite>
+    <testsuite name="Dexter\ContentNegotiation\AcceptTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/AcceptTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.016908">
+      <testsuite name="Dexter\ContentNegotiation\AcceptTest::testShouldGetFormat" tests="4" assertions="4" failures="0" errors="0" time="0.016908">
+        <testcase name="testShouldGetFormat with data set #0" assertions="1" time="0.004486"/>
+        <testcase name="testShouldGetFormat with data set #1" assertions="1" time="0.004003"/>
+        <testcase name="testShouldGetFormat with data set #2" assertions="1" time="0.004715"/>
+        <testcase name="testShouldGetFormat with data set #3" assertions="1" time="0.003704"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Dexter\ContentNegotiation\ContentTypeTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/ContentTypeTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.008508">
+      <testsuite name="Dexter\ContentNegotiation\ContentTypeTest::testShouldGetFormat" tests="2" assertions="2" failures="0" errors="0" time="0.008508">
+        <testcase name="testShouldGetFormat with data set #0" assertions="1" time="0.004748"/>
+        <testcase name="testShouldGetFormat with data set #1" assertions="1" time="0.003760"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Dexter\ContentNegotiation\ConverterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/ConverterTest.php" tests="2" assertions="6" failures="0" errors="0" time="0.024234">
+      <testcase name="testShouldEncode" class="Dexter\ContentNegotiation\ConverterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/ConverterTest.php" line="7" assertions="3" time="0.015144"/>
+      <testcase name="testShouldDecode" class="Dexter\ContentNegotiation\ConverterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/ConverterTest.php" line="29" assertions="3" time="0.009090"/>
+    </testsuite>
+    <testsuite name="Dexter\ContentNegotiation\Converters\JsonTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/Converters/JsonTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.010075">
+      <testcase name="testShouldEncode" class="Dexter\ContentNegotiation\Converters\JsonTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/Converters/JsonTest.php" line="7" assertions="1" time="0.006238"/>
+      <testcase name="testShouldDecode" class="Dexter\ContentNegotiation\Converters\JsonTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/Converters/JsonTest.php" line="13" assertions="1" time="0.003837"/>
+    </testsuite>
+    <testsuite name="Dexter\ContentNegotiation\Converters\XmlTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/Converters/XmlTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.008149">
+      <testcase name="testShouldDecode" class="Dexter\ContentNegotiation\Converters\XmlTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/Converters/XmlTest.php" line="7" assertions="1" time="0.004132"/>
+      <testcase name="testShouldEncode" class="Dexter\ContentNegotiation\Converters\XmlTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/ContentNegotiation/Converters/XmlTest.php" line="13" assertions="1" time="0.004017"/>
+    </testsuite>
+    <testsuite name="Dexter\Log\Adapters\Stream\StreamTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/Adapters/Stream/StreamTest.php" tests="2" assertions="4" failures="0" errors="0" time="0.009209">
+      <testcase name="testOpenAndClose" class="Dexter\Log\Adapters\Stream\StreamTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/Adapters/Stream/StreamTest.php" line="14" assertions="3" time="0.005390"/>
+      <testcase name="testWrite" class="Dexter\Log\Adapters\Stream\StreamTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/Adapters/Stream/StreamTest.php" line="26" assertions="1" time="0.003819"/>
+    </testsuite>
+    <testsuite name="Dexter\Log\Adapters\StreamTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/Adapters/StreamTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.023608">
+      <testcase name="testWrite" class="Dexter\Log\Adapters\StreamTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/Adapters/StreamTest.php" line="7" assertions="1" time="0.023608"/>
+    </testsuite>
+    <testsuite name="Dexter\Log\LogTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/LogTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.006468">
+      <testcase name="testToString" class="Dexter\Log\LogTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/LogTest.php" line="7" assertions="1" time="0.006468"/>
+    </testsuite>
+    <testsuite name="Dexter\Log\LoggerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/LoggerTest.php" tests="2" assertions="3" failures="0" errors="0" time="0.018014">
+      <testcase name="testAddAdapter" class="Dexter\Log\LoggerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/LoggerTest.php" line="18" assertions="1" time="0.007455"/>
+      <testcase name="testLog" class="Dexter\Log\LoggerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Log/LoggerTest.php" line="23" assertions="2" time="0.010559"/>
+    </testsuite>
+    <testsuite name="Dexter\Router\DispatcherTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/DispatcherTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.013913">
+      <testcase name="testShouldDispatch" class="Dexter\Router\DispatcherTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/DispatcherTest.php" line="7" assertions="1" time="0.013913"/>
+    </testsuite>
+    <testsuite name="Dexter\Router\FrontControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/FrontControllerTest.php" tests="1" assertions="2" failures="0" errors="0" time="0.024811">
+      <testcase name="testShouldRun" class="Dexter\Router\FrontControllerTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/FrontControllerTest.php" line="7" assertions="2" time="0.024811"/>
+    </testsuite>
+    <testsuite name="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" tests="6" assertions="7" failures="0" errors="0" time="0.035809">
+      <testcase name="testShouldGetUri" class="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" line="20" assertions="1" time="0.011281"/>
+      <testcase name="testShouldGetParamWithGet" class="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" line="26" assertions="1" time="0.004250"/>
+      <testcase name="testShouldGetParamWithGetAndDefault" class="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" line="33" assertions="1" time="0.004834"/>
+      <testcase name="testShouldGetAllParamsWithGet" class="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" line="40" assertions="1" time="0.004847"/>
+      <testcase name="testShouldGetWithXss" class="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" line="47" assertions="1" time="0.004758"/>
+      <testcase name="testShouldTestForPost" class="Dexter\Router\RequestTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RequestTest.php" line="57" assertions="2" time="0.005839"/>
+    </testsuite>
+    <testsuite name="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" tests="7" assertions="13" failures="0" errors="0" time="0.060847">
+      <testcase name="testAddHeader" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="20" assertions="2" time="0.005709"/>
+      <testcase name="testAddHeaders" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="34" assertions="1" time="0.005063"/>
+      <testcase name="testGetHeaders" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="44" assertions="1" time="0.004758"/>
+      <testcase name="testSendHeadersWithColon" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="53" assertions="3" time="0.023056"/>
+      <testcase name="testSendHeadersWithoutColon" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="80" assertions="3" time="0.012116"/>
+      <testcase name="testShouldGetSetHeaderSender" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="105" assertions="2" time="0.005482"/>
+      <testcase name="testShouldGetDefaultHeaderSender" class="Dexter\Router\ResponseTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/ResponseTest.php" line="113" assertions="1" time="0.004663"/>
+    </testsuite>
+    <testsuite name="Dexter\Router\RouteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouteTest.php" tests="2" assertions="4" failures="0" errors="0" time="0.012611">
+      <testcase name="testShouldMatch" class="Dexter\Router\RouteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouteTest.php" line="7" assertions="2" time="0.006461"/>
+      <testcase name="testShouldRun" class="Dexter\Router\RouteTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouteTest.php" line="24" assertions="2" time="0.006150"/>
+    </testsuite>
+    <testsuite name="Dexter\Router\RouterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouterTest.php" tests="4" assertions="9" failures="0" errors="0" time="0.040295">
+      <testcase name="testAddRoute" class="Dexter\Router\RouterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouterTest.php" line="7" assertions="2" time="0.010095"/>
+      <testcase name="testAddRoutes" class="Dexter\Router\RouterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouterTest.php" line="17" assertions="2" time="0.004913"/>
+      <testcase name="testShouldRouterCorrectly" class="Dexter\Router\RouterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouterTest.php" line="27" assertions="2" time="0.009303"/>
+      <testcase name="testShouldNotRouteAndSend404Exception" class="Dexter\Router\RouterTest" file="/home/forlinux/projects/4502-PHP/ProjetoFinal/DexterService/tests/unit/library/Dexter/Router/RouterTest.php" line="53" assertions="3" time="0.015984"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
