@@ -1,6 +1,0 @@
-vendor/
-build/
-*.swp
-composer.lock
-*~
-cache.properties
