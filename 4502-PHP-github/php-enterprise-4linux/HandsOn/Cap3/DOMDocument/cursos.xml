@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cursos>
+	<curso preco="900" periodo="noturno">
+		<id>500</id>
+		<nome>Desenvolvimento WEB com PHP</nome>
+		<categoria>PHP</categoria>
+	<carga_horario>40</carga_horario>
+	
+	</curso>
+
+	<curso preco="1000">
+		<id>501</id>
+		<nome>Desenvolvimento orientado a objeto</nome>
+		<categoria>Desenvolvimento</categoria>
+	<carga_horario>40</carga_horario></curso>
+	<curso preco="1200">
+		<id>502</id>
+		<nome>Desenvolvimento Enterprise com PHP</nome>
+		<categoria>Desenvolvimento</categoria>
+	<carga_horario>40</carga_horario></curso>
+<curso><id>450</id><nome>Linux fundamentals in cloud</nome><categoria>linux</categoria><carga_horario>40</carga_horario></curso><curso><id>450</id><nome>Linux fundamentals in cloud</nome><categoria>linux</categoria><carga_horario>40</carga_horario></curso><curso><id>450</id><nome>Linux fundamentals in cloud</nome><categoria>linux</categoria><carga_horario>40</carga_horario></curso><curso><id>450</id><nome>Linux fundamentals in cloud</nome><categoria>linux</categoria><carga_horario>40</carga_horario></curso><curso><id>450</id><nome>Linux fundamentals in cloud</nome><categoria>linux</categoria><carga_horario>40</carga_horario></curso></cursos>
