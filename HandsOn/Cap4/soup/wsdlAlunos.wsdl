@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="HelloService"
+   targetNamespace="http://localhost/4502-PHP/4502-PHP-github/php-enterprise-4linux/HandsOn/Cap4/soup/apiSoap.php"
+   xmlns="http://schemas.xmlsoap.org/wsdl/"
+   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+   xmlns:tns="http://localhost/4502-PHP/4502-PHP-github/php-enterprise-4linux/HandsOn/Cap4/soup/apiSoap.php"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ 
+   <message name="listarSaida">
+      <part name="listaAlunos" type="xsd:json"/>
+   </message>
+ 
+<message name="listarPorIdSaida">
+      <part name="listarPorIdSaida" type="xsd:json"/>
+</message>
+  
+<message name="listarPorIdEntrada">
+      <part name="listarPorIdEntrada" type="xsd:int"/>
+</message>
+
+
+   <portType name="AlunosPortType">
+      
+      <operation name="listarAlunos">
+         <output message="tns:listarSaida"/>
+      </operation>
+      
+      <operation name="listarPorId">
+        <input message="tns:listarPorIdEntrada"/>
+         <output message="tns:listarPorIdSaida"/>
+      </operation>
+
+   </portType>
+
+
+   <binding name="AlunosBinding" type="tns:AlunosPortType">
+      <soap:binding style="rpc"
+         transport="http://schemas.xmlsoap.org/soap/http"/>
+      <operation name="listarAlunos">
+         <output>
+            <soap:body
+               encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+               namespace="urn:Alunos"
+               use="encoded"/>
+         </output>
+      </operation>
+
+      <operation name="listarPorId">
+         <input>
+            <soap:body
+               encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+               namespace="urn:Alunos"
+               use="encoded"/>
+         </input>
+
+         <output>
+            <soap:body
+               encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+               namespace="urn:Alunos"
+               use="encoded"/>
+         </output>
+      </operation>
+
+   </binding>
+
+   <service name="Alunos">
+            <port binding="tns:AlunosBinding" name="Alunos_Port">
+         <soap:address
+            location="http://localhost/4502-PHP/4502-PHP-github/php-enterprise-4linux/HandsOn/Cap4/soup/apiSoap.php" />
+      </port>
+   </service>
+</definitions>

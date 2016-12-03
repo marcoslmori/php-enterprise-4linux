@@ -1,0 +1,44 @@
+ 1927  history
+ 1928  sudo init 0
+ 1929  cd /var
+ 1930  ll
+ 1931  cd www
+ 1932  ll
+ 1933  mkdir x
+ 1934  rm -rf x
+ 1935  ll
+ 1936  pwd
+ 1937  ll
+ 1938  cd 4502-php
+ 1939  cd 4502-PHP/
+ 1940  ll
+ 1941  mkdir 4502-PHP-github
+ 1942  cd 4502-PHP-github/
+ 1943  ll
+ 1944  git clone https://github.com/marcoslmori/php-enterprise-4linux.git
+ 1945  ll
+ 1946  cd ..
+ 1947  ll
+ 1948  git status
+ 1949  git add -f *
+ 1950  git status
+ 1951  ll
+ 1952  git commit -m "primeiro commit do curso "
+ 1953  git remote -v
+ 1954  git push
+ 1955  git push origin master
+ 1956  git remote  -v
+ 1957  ls
+ 1958  ll
+ 1959  cd 4502-PHP-github/
+ 1960  ll
+ 1961  git push
+ 1962  git status
+ 1963  cd ..
+ 1964  ll
+ 1965  git remote -v
+ 1966  git add remote github https://github.com/marcoslmori/php-enterprise-4linux.git
+ 1967  git remote add github https://github.com/marcoslmori/php-enterprise-4linux.git
+ 1968  git remote -v
+ 1969  git push github master
+ 1970  history > hystory.txt

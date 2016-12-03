@@ -1,0 +1,34 @@
+aula 1 -
+
+Vamos usar o php unit
+instalacao: 
+To globally install the PHAR: 
+https://phpunit.de/manual/current/en/installation.html
+
+composer o que http://www.lld.com.br/composer-o-que-e-e-para-que-serve/
+Dependency Manager for PHP 
+instalation
+https://getcomposer.org/download/
+- Download Composer
+e completar com essas linhas
+chmod +x composer.phar*
+$ sudo mv composer.phar /usr/local/bin/composer
+$ composer --version
+
+
+https://phpunit.de/manual/current/en/installation.html
+compatibilidade das dependencias do composer com o php unit
+
+composer.json
+{
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
+
+executar composer update
+
+
+aula 1
+- manipulacao de data e hora
+- manipulacao de arquivo
